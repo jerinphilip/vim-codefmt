@@ -247,3 +247,7 @@ call s:plugin.Flag('ormolu_executable', 'ormolu')
 ""
 " The path to the ocamlformat executable.
 call s:plugin.Flag('ocamlformat_executable', 'ocamlformat')
+
+" The path to the cmake-format executable.
+call s:plugin.Flag('cmake_format_executable', 'cmake-format')
+
