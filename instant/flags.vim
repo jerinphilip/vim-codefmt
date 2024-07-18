@@ -262,3 +262,5 @@ call s:plugin.Flag('ocamlformat_executable', 'ocamlformat')
 " The path to the cmake-format executable.
 call s:plugin.Flag('cmake_format_executable', 'cmake-format')
 
+" The path to the ruff-format executable.
+call s:plugin.Flag('ruff_executable', 'ruff')

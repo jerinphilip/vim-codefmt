@@ -90,4 +90,5 @@ call s:registry.AddExtension(codefmt#swiftformat#GetFormatter())
 call s:registry.AddExtension(codefmt#ormolu#GetFormatter())
 call s:registry.AddExtension(codefmt#ocamlformat#GetFormatter())
 call s:registry.AddExtension(codefmt#cmake_format#GetFormatter())
+call s:registry.AddExtension(codefmt#ruff#GetFormatter())
 
